@@ -1,2 +1,2 @@
 FROM busybox
-CMD echo "hello world"
+CMD ping "yahoo.com"
