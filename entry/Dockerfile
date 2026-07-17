@@ -1,3 +1,3 @@
-FROM busybox
-ENTRYPOINT "ping"
-CMD "yahoo.com"
+FROM almalinux:9
+ENTRYPOINT ["ping"]
+CMD ["yahoo.com"]
